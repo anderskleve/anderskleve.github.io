@@ -1,61 +1,75 @@
 {
-	"name": "Company name",
-	"attributes": {
-		"orgNumber": "3456789"
-	},
-	"children": [{
-			"name": "Sub company",
-			"attributes": {
-				"orgNumber": "15426",
-				"isCompany": true
-			},
-			"children": [{
-					"name": "Acme inc",
-					"attributes": {
-						"orgNumber": "49349",
-						"isCompany": false
-					},
-					"children": [{
-						"name": "Nike",
-						"orgNumber": "457898",
-						"isCompany": false
-					}]
-				},
-				{
-					"name": "Apple",
-					"attributes": {
-						"orgNumber": "5555555",
-						"isCompany": true
-					},
-					"children": [{
-						"name": "Pear",
-						"orgNumber": "88888",
-						"isCompany": false
-					}]
-				}
-			]
-		},
-		{
-			"name": "Volvo",
-			"attributes": {
-				"orgNumber": "3333",
-				"isCompany": false
-			},
-			"children": [{
-					"name": "Volvo Penta",
-					"attributes": {
-						"orgNumber": "989654",
-						"isCompany": false
-					}
-				},
-				{
-					"name": "Tesla",
-					"attributes": {
-						"orgNumber": "66656554",
-						"isCompany": false
-					}
-				}
-			]
-		}
-	]
+  "name": "Company name",
+  "attributes": {
+    "orgNumber": "3456789"
+  },
+  "children": [
+    {
+      "name": "Sub company",
+      "attributes": {
+        "orgNumber": "15426",
+        "isCompany": true,
+        "replacedBy": "5555555"
+      },
+      "children": [
+        {
+          "name": "Acme inc",
+          "attributes": {
+            "orgNumber": "49349",
+            "isCompany": false
+          },
+          "children": [
+            {
+              "name": "Nike",
+              "attributes": {
+                "orgNumber": "457898",
+                "isCompany": false,
+                "replacedBy": "88888"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Apple",
+          "attributes": {
+            "orgNumber": "5555555",
+            "isCompany": true
+          },
+          "children": [
+            {
+              "name": "Pear",
+              "attributes": {
+                "orgNumber": "88888",
+                "isCompany": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Volvo",
+      "attributes": {
+        "orgNumber": "54354353",
+        "isCompany": false
+      },
+      "children": [
+        {
+          "name": "Volvo Penta",
+          "attributes": {
+            "orgNumber": "98534539654",
+            "isCompany": false,
+            "replacedBy": "49349"
+          }
+        },
+        {
+          "name": "Tesla",
+          "attributes": {
+            "orgNumber": "666222256554",
+            "isCompany": false
+          }
+        }
+      ]
+    }
+  ]
 }
