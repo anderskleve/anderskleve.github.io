@@ -10,20 +10,25 @@
         "orgNumber": "15426",
         "isCompany": true,
         "isClinic": true,
-        "replacedBy": "3333"
+        "replacedBy": "5555555"
       },
       "children": [
         {
           "name": "Acme inc",
           "attributes": {
             "orgNumber": "49349",
-            "isCompany": false
+            "isCompany": false,
+            "isClinic": true
           },
           "children": [
             {
               "name": "Nike",
-              "orgNumber": "457898",
-              "isCompany": false
+              "attributes": {
+                "orgNumber": "457898",
+                "isCompany": false,
+                "isClinic": true,
+                "replacedBy": "88888"
+              }
             }
           ]
         },
@@ -31,13 +36,17 @@
           "name": "Apple",
           "attributes": {
             "orgNumber": "5555555",
-            "isCompany": true
+            "isCompany": true,
+            "isClinic": false
           },
           "children": [
             {
               "name": "Pear",
-              "orgNumber": "88888",
-              "isCompany": false
+              "attributes": {
+                "orgNumber": "88888",
+                "isCompany": false,
+                "isClinic": true
+              }
             }
           ]
         }
@@ -46,23 +55,26 @@
     {
       "name": "Volvo",
       "attributes": {
-        "orgNumber": "3333",
-        "isCompany": true
+        "orgNumber": "54354353",
+        "isCompany": false,
+        "isClinic": true
       },
       "children": [
         {
           "name": "Volvo Penta",
           "attributes": {
-            "orgNumber": "989654",
+            "orgNumber": "98534539654",
             "isCompany": true,
-            "isClinic": true
+            "isClinic": true,
+            "replacedBy": "49349"
           }
         },
         {
           "name": "Tesla",
           "attributes": {
-            "orgNumber": "66656554",
-            "isCompany": false
+            "orgNumber": "666222256554",
+            "isCompany": false,
+            "isClinic": true
           }
         }
       ]
