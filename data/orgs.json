@@ -1,7 +1,9 @@
 {
   "name": "Company name",
   "attributes": {
-    "orgNumber": "3456789"
+    "orgNumber": "3456789",
+    "isCompany": true,
+        "isClinic": false
   },
   "children": [
     {
