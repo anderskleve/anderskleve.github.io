@@ -9,7 +9,8 @@
       "attributes": {
         "orgNumber": "15426",
         "isCompany": true,
-        "replacedBy": "5555555"
+        "isClinic": true,
+        "replacedBy": "3333"
       },
       "children": [
         {
@@ -21,11 +22,8 @@
           "children": [
             {
               "name": "Nike",
-              "attributes": {
-                "orgNumber": "457898",
-                "isCompany": false,
-                "replacedBy": "88888"
-              }
+              "orgNumber": "457898",
+              "isCompany": false
             }
           ]
         },
@@ -38,10 +36,8 @@
           "children": [
             {
               "name": "Pear",
-              "attributes": {
-                "orgNumber": "88888",
-                "isCompany": false
-              }
+              "orgNumber": "88888",
+              "isCompany": false
             }
           ]
         }
@@ -50,22 +46,22 @@
     {
       "name": "Volvo",
       "attributes": {
-        "orgNumber": "54354353",
-        "isCompany": false
+        "orgNumber": "3333",
+        "isCompany": true
       },
       "children": [
         {
           "name": "Volvo Penta",
           "attributes": {
-            "orgNumber": "98534539654",
-            "isCompany": false,
-            "replacedBy": "49349"
+            "orgNumber": "989654",
+            "isCompany": true,
+            "isClinic": true
           }
         },
         {
           "name": "Tesla",
           "attributes": {
-            "orgNumber": "666222256554",
+            "orgNumber": "66656554",
             "isCompany": false
           }
         }
